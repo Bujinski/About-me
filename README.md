@@ -13,9 +13,9 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+* I got 100 points accessibility, but I do not remember how to add screen shot to read.me from the computer
+![Lighthous points](light screen.png)
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+> I feel a little frustrated because during the video we try to do something but after few days I cannot remember anything, and it looks like I can not write anything without help.
