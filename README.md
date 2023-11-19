@@ -14,7 +14,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 ### Lighthouse Accessibility Report Score
 
 * I got 100 points accessibility, but I do not remember how to add screen shot to read.me from the computer
-![Lighthous points](light screen.png)
+![Lighthouse points](light screen.png)
 
 ### Reflections and Comments
 

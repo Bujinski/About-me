@@ -6,6 +6,8 @@ let userName = prompt('What is your name?')
 
 alert(`Welcome to my site ${userName}! Let's play a guessing game, please answer yes/no OR y/n`);
 
+let correctAnswers = 0;
+
 let firstGuess = prompt('Do I have a dog?').toLowerCase();
 
 if(firstGuess === 'y' || firstGuess === 'yes' || firstGuess === 'Yes'){
@@ -13,6 +15,7 @@ if(firstGuess === 'y' || firstGuess === 'yes' || firstGuess === 'Yes'){
 } else if(firstGuess === 'n' || firstGuess === 'no' || firstGuess === 'No'){
   alert('You are right, I adore cats. I have two of them.');
 }
+correctAnswers++;
 
 let secondGuess = prompt('Was I born in USA?').toLowerCase();
 
@@ -22,6 +25,8 @@ if(secondGuess === 'yes' || secondGuess === 'y'){
   alert('This is correct, I was born in Belarus');
 }
 
+correctAnswers++;
+
 let thirdGuess = prompt('Am I from Seattle?').toLowerCase();
 
 if(thirdGuess === 'yes' || thirdGuess === 'y'){
@@ -30,10 +35,14 @@ if(thirdGuess === 'yes' || thirdGuess === 'y'){
   alert('No, I live in Seattle 8 years now!');
 }
 
+correctAnswers++;
+
 let fourthGuess = prompt('Am I a good swimmer?').toLowerCase();
 
 if(fourthGuess === 'y' || fourthGuess === 'yes' || fourthGuess === 'Yes'){
   alert('Sure, I was swimming all my life!');
+
+  correctAnswers++;
 } else if(fourthGuess === 'n' || fourthGuess === 'no' || fourthGuess === 'No'){
   alert('Wrong guess, I love to swim!');
 }
@@ -46,3 +55,6 @@ if(fifthGuess === 'y' || fifthGuess === 'yes' || fifthGuess === 'Yes'){
   alert('Sure thing, I hate running!');
 }
 
+correctAnswers++;
+
+alert(`Thanks for playing, ${userName}! You got ${correctAnswers} out of 7 questions correct.`);
