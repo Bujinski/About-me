@@ -18,4 +18,3 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Reflections and Comments
 
-> I feel a little frustrated because during the video we try to do something but after few days I cannot remember anything, and it looks like I can not write anything without help.

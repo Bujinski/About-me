@@ -8,6 +8,7 @@ alert(`Welcome to my site ${userName}! Let's play a guessing game, please answer
 
 let correctAnswers = 0;
 
+function firstGuess(){
 let firstGuess = prompt('Do I have a dog?').toLowerCase();
 
 if(firstGuess === 'y' || firstGuess === 'yes' || firstGuess === 'Yes'){
@@ -16,7 +17,10 @@ if(firstGuess === 'y' || firstGuess === 'yes' || firstGuess === 'Yes'){
   alert('You are right, I adore cats. I have two of them.');
 }
 correctAnswers++;
+}
+firstGuess();
 
+function secondGuess(){
 let secondGuess = prompt('Was I born in USA?').toLowerCase();
 
 if(secondGuess === 'yes' || secondGuess === 'y'){
@@ -26,7 +30,10 @@ if(secondGuess === 'yes' || secondGuess === 'y'){
 }
 
 correctAnswers++;
+}
+secondGuess();
 
+function thirdGuess(){
 let thirdGuess = prompt('Am I from Seattle?').toLowerCase();
 
 if(thirdGuess === 'yes' || thirdGuess === 'y'){
@@ -36,7 +43,10 @@ if(thirdGuess === 'yes' || thirdGuess === 'y'){
 }
 
 correctAnswers++;
+}
+thirdGuess(); 
 
+function fourthGuess(){
 let fourthGuess = prompt('Am I a good swimmer?').toLowerCase();
 
 if(fourthGuess === 'y' || fourthGuess === 'yes' || fourthGuess === 'Yes'){
@@ -47,6 +57,11 @@ if(fourthGuess === 'y' || fourthGuess === 'yes' || fourthGuess === 'Yes'){
   alert('Wrong guess, I love to swim!');
 }
 
+correctAnswers++;
+}
+fourthGuess();
+
+function fifthGuess(){
 let fifthGuess = prompt('Am I a good runner?').toLowerCase();
 
 if(fifthGuess === 'y' || fifthGuess === 'yes' || fifthGuess === 'Yes'){
@@ -58,3 +73,5 @@ if(fifthGuess === 'y' || fifthGuess === 'yes' || fifthGuess === 'Yes'){
 correctAnswers++;
 
 alert(`Thanks for playing, ${userName}! You got ${correctAnswers} out of 7 questions correct.`);
+}
+fifthGuess();
